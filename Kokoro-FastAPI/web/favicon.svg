@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3e6c"/>
+      <stop offset="100%" stop-color="#ff6b8d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Square background with rounded corners -->
+  <rect x="2" y="2" width="28" height="28" rx="8" ry="8" fill="url(#logoGradient)" stroke="white" stroke-width="0.5"/>
+  
+  <!-- F Letter - Fixed to ensure continuous path -->
+  <path d="M11 8h11M11 8v16M11 16h8" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Dot accent - now part of the F's top line -->
+  <circle cx="22" cy="8" r="1.5" fill="white"/>
+</svg>
