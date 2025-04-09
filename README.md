@@ -15,4 +15,6 @@ Then build and run the Docker containers:
 \`\`\`bash
 docker container prune -f && DOCKER_BUILDKIT=1 docker-compose up --build
 \`\`\`
-" > README.md
+
+UI: http://localhost:8880/web/
+API: http://localhost:8880/
